@@ -13,6 +13,10 @@
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 
 </head>
 
@@ -20,15 +24,35 @@
     <nav class="navbar">
         <div class="logo">
             <h1>Wainas Shops</h1>
+            <div class="search">
+
+                <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.."
+                    title="Type in a category">
+                <ul id="myMenu" style="list-style: none;">
+                    <li><a href="project.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                    <li><a href="ratings.html">Ratings</a></li>
+                    <li><a href="dean.html">products</a></li>
+                    <li><a href="#bondage">bondage strap</a></li>
+                    <li><a href="#boots">lady boots</a></li>
+                    <li><a href="#nike ">nike shoes</a></li>
+                    <li><a href="#travel">travel bag</a></li>
+                    <li><a href="#laptop">laptop bag</a></li>
+                    <li><a href="#phone">one-plus phantom</a></li>
+                    <li><a href="#watch">men's watch</a></li>
+                    <li><a href="#bracelet"> lady's bracelet</a></li>
+                </ul>
+            </div>
         </div>
         <u1 class="menu">
             <li><a href="" class="active">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="madtext.html">Sign up</a></li>
             <li><a href="contacts.html">Contacts</a></li>
-            <li><a href="search.html">Search</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+            <li><a href="dean.html">Products</a></li>
+            <li><a href="ratings.html">Ratings</a></li>
+            <li><a href="dean.html"><i class="fas fa-shopping-cart"></i></a></li>
 
         </u1>
         <!---for responsive button-->
@@ -43,9 +67,9 @@
     </section>
     <h1 class="pheading">Our Latest Products</h1>
     <section class="sec">
-        
+
         <!--card start-->
-        <div class="products">
+        <div class="products"><a name="boots"></a>
             <div class="card">
                 <div class="img"><img
                         src="https://img.freepik.com/premium-photo/details-trendy-casual-fall-spring-outfit-woman-holding_161568-11656.jpg?size=626&ext=jpg&ga=GA1.1.715843699.1698456601&semt=ais"
@@ -62,7 +86,7 @@
 
             <!--card start-->
 
-            <div class="card">
+            <div class="card"><a name="nike"></a>
                 <div class="img"><img
                         src="https://img.freepik.com/free-vector/color-sport-sneaker_98292-3191.jpg?size=626&ext=jpg&ga=GA1.1.715843699.1698456601&semt=sph"
                         alt=""></div>
@@ -78,7 +102,7 @@
 
             <!--card start-->
 
-            <div class="card">
+            <div class="card"><a name="laptop"></a>
                 <div class="img"><img
                         src="https://img.freepik.com/free-photo/close-up-brown-briefcase_1156-617.jpg?size=626&ext=jpg&ga=GA1.1.715843699.1698456601&semt=ais"
                         alt=""></div>
@@ -94,7 +118,7 @@
 
             <!--card start-->
 
-            <div class="card">
+            <div class="card"><a name="travel"></a>
                 <div class="img"><img
                         src="https://img.freepik.com/free-photo/gray-duffle-bag-unisex-accessory_53876-101500.jpg?size=626&ext=jpg&ga=GA1.1.715843699.1698456601&semt=ais"
                         alt=""></div>
@@ -110,7 +134,7 @@
 
             <!--card start-->
 
-            <div class="card">
+            <div class="card"><a name="watch"></a>
                 <div class="img"><img
                         src="https://img.freepik.com/free-photo/stylish-golden-watch-white-surface_181624-27078.jpg?size=626&ext=jpg&ga=GA1.1.715843699.1698456601&semt=ais"
                         alt=""></div>
@@ -126,7 +150,7 @@
 
             <!--card start-->
 
-            <div class="card">
+            <div class="card"><a name="bracelet"></a>
                 <div class="img"><img
                         src="https://img.freepik.com/free-photo/closeup-shot-female-wearing-fashionable-bracelet-with-charm-pendants_181624-21048.jpg?size=626&ext=jpg&ga=GA1.1.715843699.1698456601&semt=ais"
                         alt=""></div>
@@ -142,7 +166,7 @@
 
             <!--card start-->
 
-            <div class="card">
+            <div class="card"><a name="phantom"></a>
                 <div class="img"><img
                         src="https://img.freepik.com/free-vector/modern-smartphone_23-2147694816.jpg?size=626&ext=jpg&ga=GA1.1.715843699.1698456601&semt=ais"
                         alt=""></div>
@@ -158,7 +182,7 @@
 
             <!--card start-->
 
-            <div class="card">
+            <div class="card"><a name="bondage"></a>
                 <div class="img"><img
                         src="https://img.freepik.com/free-photo/woman-s-stuff_144627-15532.jpg?size=626&ext=jpg&ga=GA1.1.715843699.1698456601&semt=ais"
                         alt=""></div>
@@ -173,15 +197,32 @@
         </div>
 
     </section>
+
+
+    <!--Footer-->
+    <section id="footer">
+        <div class="card text-center">
+
+            <div class="card-body">
+                <h3 class="card-title"><i class="fa-solid fa-gift" style="margin-right: 1%;"></i>@WAINAS</h3>
+                <p>Thank You For Shopping With Us , Come Again !!!</p>
+            </div>
+            <div class="card-footer text-muted">
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+    </section>
     <footer>
         <p>Copyrights at <a href="">Wainas Shops</a></p>
         <script>
             $(".menu-btn").click(function () {
                 $(".navbar .menu").toggleClass("active");
                 $(".menu-btn i").toggleClass("active");
+                
             });
 
-        </script>
+        <script src="project.js"></script>
 
 </body>
 
